@@ -40,5 +40,9 @@
 - Gradient
 -         ↓
 - Theta Update
--        ↓
+       ↓
 - Repeat for all Epochs
+
+### cost_plot()
+
+Plots the training Cost vs Epoch graph
