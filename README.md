@@ -46,3 +46,45 @@
 ### cost_plot()
 
 Plots the training Cost vs Epoch graph
+
+### Model Methods
+
+### fit(X_train, y_train)
+
+Trains the Linear Regression model.
+
+### predict(X_test)
+
+Returns predictions for unseen data.
+
+Supports:
+
+- NumPy arrays
+- Pandas DataFrames
+- Single sample input
+- Multiple samples
+- 
+### mean_squared_error(X_test, y_test)
+
+Returns the Mean Squared Error.
+
+### mean_absolute_error(X_test, y_test)
+
+Returns the Mean Absolute Error.
+
+### r2_score(X_test, y_test)
+
+Returns the coefficient of determination (R² Score).
+
+### score(X_test, y_test)
+
+Returns the R² Score (similar to scikit-learn).
+
+
+### Evaluation Metrics
+
+The implementation includes:
+
+- Mean Squared Error (MSE)
+- Mean Absolute Error (MAE)
+- R² Score
