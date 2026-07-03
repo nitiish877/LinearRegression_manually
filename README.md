@@ -23,4 +23,22 @@
 
 ### 2.Gradient Decent
 
-θ=\frac{1}{m}X^T(X\theta-y)
+- θ=X^T(Xθ-y)/m
+- pameter update
+- θ=θ-α*GD
+
+
+### Gradient Descent Workflow
+- Initialize Theta
+-         ↓
+- Prediction
+-         ↓
+- Error
+-         ↓
+- Cost (MSE)
+-         ↓
+- Gradient
+-         ↓
+- Theta Update
+-        ↓
+- Repeat for all Epochs
