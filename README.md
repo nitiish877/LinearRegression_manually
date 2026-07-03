@@ -40,7 +40,7 @@
 - Gradient
 -         ↓
 - Theta Update
-       ↓
+-        ↓
 - Repeat for all Epochs
 
 ### cost_plot()
